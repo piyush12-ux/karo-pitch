@@ -27,5 +27,7 @@ A landing page for Karo Pitch - a platform where Indian founders can pitch to in
 © 2026 Piyush Yadav. All rights reserved.
 This code is for KaroStartup assignment only. Do not copy or reuse without permission.
 
+## Live Demo https://peppy-figolla-213ca5.netlify.app/
+
 ## Contact
 Piyush Yadav | 9758424897

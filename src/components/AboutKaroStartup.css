@@ -1,0 +1,108 @@
+.about-karostartup {
+  background: linear-gradient(135deg, var(--light-orange) 0%, var(--white) 100%);
+  padding: 80px 0;
+}
+
+.about-ks-text {
+  font-size: 16px;
+  color: var(--text-light);
+  margin-bottom: 24px;
+  line-height: 1.8;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-top: 48px;
+}
+
+.stat-box {
+  text-align: center;
+  padding: 24px;
+  background-color: var(--white);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-sm);
+}
+
+.stat-box h3 {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--primary-orange);
+  margin-bottom: 8px;
+}
+
+.stat-box p {
+  font-size: 14px;
+  color: var(--text-light);
+  font-weight: 500;
+}
+
+.about-ks-image {
+  position: relative;
+}
+
+.ks-card {
+  background-color: var(--white);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-md);
+  overflow: hidden;
+  border: 1px solid #E2E8F0;
+}
+
+.ks-card-header {
+  background: linear-gradient(135deg, var(--primary-orange), var(--primary-green));
+  color: var(--white);
+  padding: 32px 24px;
+  position: relative;
+}
+
+.ks-badge {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.ks-card-header h4 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.ks-card-content {
+  padding: 32px 24px;
+}
+
+.ks-milestone {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.ks-milestone span {
+  font-size: 28px;
+  min-width: 50px;
+}
+
+.ks-milestone strong {
+  display: block;
+  font-size: 16px;
+  color: var(--text-dark);
+  margin-bottom: 4px;
+}
+
+.ks-milestone p {
+  font-size: 14px;
+  color: var(--text-light);
+}
+
+@media (max-width: 768px) {
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+}
